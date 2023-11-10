@@ -1,10 +1,10 @@
 function maxProfit(n) {
-    // Initialize counts for each type of property
+    // Initialize counts
     let theaters = 0;
     let pubs = 0;
     let parks = 0;
   
-    // Calculate the maximum number of each property based on the time units
+    // Calculate max number of each property based on time units
     while (n >= 10) {
       parks += 1;
       n -= 10;
